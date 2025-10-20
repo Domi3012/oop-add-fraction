@@ -24,7 +24,7 @@ void Fraction::reduce() {
 
 std::expected<Fraction, std::string> Fraction::createFraction(int num, int den) {
     if (den == 0) {
-        return std::unexpected("Fraction's denominatior cannot be zero.");
+        return std::unexpected("Mẫu số không được là số 0");
     }
     return Fraction(num, den);
 }
