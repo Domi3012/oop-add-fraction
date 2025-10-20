@@ -1,4 +1,8 @@
 #include "../include/Fraction.h"
+#include <string>
+#include <expected>
+#include <format> // for std::format()
+#include <cmath> // for std::abs() inside gcd()
 
 int Fraction::gcd(int a, int b) {
     a = std::abs(a);

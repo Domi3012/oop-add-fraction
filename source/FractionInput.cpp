@@ -1,4 +1,7 @@
 #include "../include/FractionInput.h"
+#include <iostream>
+#include <regex>
+#include <sstream>
 
 std::expected<Fraction, std::string> FractionInput::parseFraction(std::string& input) {
     std::regex fractionPattern(R"(^\s*([\-]?\d+)\s*(\/\s*([\-]?\d+))?\s*$)"); 
