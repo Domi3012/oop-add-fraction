@@ -1,13 +1,12 @@
 #include "../include/Fraction.h"
+#include "../include/FractionInput.h"
 #include <iostream>
 
 int main() {
-    int num, den;
-    std::cin >> num >> den;
-    auto result = Fraction::createFraction(num, den);
-    if (result) std::cout << (*result).toString();
-    else std::cout << "Error: " << result.error() << std::endl; 
-
+    auto result = FractionInput::getFractionLoop("Hãy nhập phân số thứ nhất.");
+    if (result) {
+        std::cout << (*result).toString();
+    }
     
 
     return 0;
