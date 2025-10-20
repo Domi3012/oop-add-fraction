@@ -3,6 +3,7 @@
 
 #include "Fraction.h"
 #include <expected>
+#include <string> 
 
 /**
  * @class FractionInput

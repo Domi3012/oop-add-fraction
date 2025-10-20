@@ -1,6 +1,9 @@
 #ifndef FRACTION_H
 #define FRACTION_H
 
+#include <expected>
+#include <string>
+
 /**
  * @class Fraction
  * @brief Represents a mathematical fraction with a numerator and denominator.
