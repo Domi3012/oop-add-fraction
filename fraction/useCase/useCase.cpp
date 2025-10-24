@@ -1,21 +1,9 @@
 #include "../dto/Fraction.h"
 #include "../ui/Fraction.h"
-
+#include "useCase.h"
 #include <iostream>
 
-void greet() {
-    std::cout << "CHƯƠNG TRÌNH TÍNH TỔNG 2 PHÂN SỐ.\n";
-    std::cout << "Nhấn Enter để tiếp tục...";
-    std::cin.get();
-}
-
-void bye() {
-    std::cout << "CHƯƠNG TRÌNH ĐANG THOÁT.\n";
-    std::cout << "Nhấn Enter để tiếp tục...";
-    std::cin.get();
-}
-
-void addFractionsUseCase() {
+void addFractionsUseCase::execute() {
     auto result1 = ui::getFractionLoop("Hãy nhập phân số đầu tiên:\n");
 
     if (!result1.has_value()) {

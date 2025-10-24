@@ -10,6 +10,7 @@ namespace ui {
     //std::expected<Fraction, std::string> parseFraction(std::string &input);
     std::string fracToString(const Fraction& frac);
     std::expected<Fraction, std::string> getFractionLoop(std::string message, int maxAttempts = 3);
+    std::expected<Fraction, std::string> parseFraction(std::string& input);
 };
 
 #endif

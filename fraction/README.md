@@ -48,7 +48,7 @@ $ mkdir -p build
 Chạy lệnh sau từ thư mục gốc của đồ án:
 
 ```bash
-$ g++ -std=c++23 -g main.cpp ./bus/*.cpp ./dto/*.cpp ./ui/*.cpp ./useCase/*.cpp -o build/app   
+$ g++ -std=c++23 -g main.cpp ./dto/*.cpp ./ui/*.cpp ./useCase/*.cpp -o build/app
 ```
 
 ### Thực thi
