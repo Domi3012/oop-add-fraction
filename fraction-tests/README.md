@@ -7,5 +7,5 @@ $ g++ -std=c++23 -Wall -g -pthread main.cpp ../fraction/dto/*.cpp ../fraction/ui
 Lệnh thực thi test từ folder test:
 
 ```Bash
-$ ./tests
+$ ./out/tests
 '''
