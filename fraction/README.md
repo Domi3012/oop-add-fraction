@@ -45,7 +45,7 @@ Tạo thư mục build (nếu chưa có):
 $ mkdir -p build
 ```
 
-Chạy lệnh sau từ thư mục gốc của đồ án:
+Chạy lệnh sau từ thư mục fraction của project:
 
 ```bash
 $ g++ -std=c++23 -g main.cpp ./dto/*.cpp ./ui/*.cpp ./useCase/*.cpp -o build/app
